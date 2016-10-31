@@ -14,7 +14,7 @@ document.getElementById("Question").innerHTML = rand;
 }
 
 function randomAnswerA() {
-    var answerArrayA = ['Doubles', 'Domain', 'Government', 'Hyperlink to Text Protocol', 'Encode text in an easy to understand format', 'High Bandwidth; Low Latency', 'Internet Browser', 'Commercial', 'Client', 'Public',
+    var answerArrayA = ['<p id="correct">Doubles</p>', 'Domain', '<p id ="correct">Government</p>', 'Hyperlink to Text Protocol', '<p id ="correct">Encode text in an easy to understand format</p>', '<p id ="correct">High Bandwidth; Low Latency', '<p id ="correct">Internet Browser</p>', '<p id ="correct">Commercial</p>', '<p id ="correct">Client</p>', '<p id ="correct">Public</p>',
     'html', 'Android Studio', 'Times New Roman', 'ol', 'myFunction()=embed', 'tablerow', 'img src="image.jpg"', '"horizontalrule"', 'h3', 'color=#FFFFFF', 
     'h1 {color:red;}', 'h1 padding:5px', 'p {margin: 100px 150px 100px 80px;}', '%', 'Padding', 'border-left: red solid 6px;', 'font-family: |Comic Sans MS|;', 'a:hover', 'background-color: white;', 'gravity: falls;',
     'console.log("Text")','(Comment)','TEXTEXAMPLE','Storing and Manipulating Numbers','innerHTML','var javascript() = [This, IsAn, Array]','Java','console.log','if i == x then','function completeMath(x - y) {x*y}',];
@@ -23,7 +23,7 @@ document.getElementById("a").innerHTML = rand;
 }
 
  function randomAnswerB() {
-    var answerArrayB = ['Triples', 'Protocol', 'Harvard College', 'Hypertext Transfer Protocol', 'Encrypt Passwords', 'Low Bandwidth; Low Latency', 'Android Studio', 'Government', 'Folder', 'Private', 
+    var answerArrayB = ['Triples', '<p id ="correct">Protocol</p>', 'Harvard College', '<p id ="correct">Hypertext Transfer Protocol</p>', 'Encrypt Passwords', 'Low Bandwidth; Low Latency', 'Android Studio', 'Government', 'Folder', 'Private', 
     '!DOCTYPE html', 'Brackets', 'Comic Sans MS', 'ul', 'link rel="javascript" type="text/javascript" href="theme.js"', 'th', 'a href="image"', 'hr', 'h6', 'color="white"', 
     'h1 color:red', 'h1 {padding:5px}', 'p {margin: 80px 100px 150px 100px;}', '*', 'Content', 'border-left: 6px solid red;', 'font-family: *Comic Sans MS*;', 'a:visited', 'backgroundcolor: white;', 'align-text: left;', 
     'document.write("Text")', '//Coment', 'TeXtExAmPlE', 'Writing Functions', 'getElementByClassName', 'var javascript = [This, IsAn, Array]', 'ECMScript', 'messageUser("Hi how are you")', 'if i = x then', 'function completeMath(x, y) {x*y}',];
