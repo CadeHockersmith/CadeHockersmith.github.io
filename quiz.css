@@ -24,6 +24,15 @@ body{
     background-color: #646566;
     width: 100%;
 }
+#verifybox{
+    border: 5px solid #646566;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    margin-left: 70%;
+    margin-top: 50px;
+}
 #DirectionsLabel {
     color: white;
     font-size: 25px;
@@ -68,6 +77,15 @@ body{
     margin-top: -30px;
     padding-bottom: -30px;
 }
+.answers{
+    margin-top: -150px;
+}
+#verify{
+    margin-left: 50px;
+}
+#next{
+    margin-right: -50px;
+}
 .NextQuestionLabel {
     color: white;
     font-size: 25px;
@@ -76,10 +94,10 @@ body{
     padding: 3px 3px; 
     background-color: #646566;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 100px;
     padding-bottom: 10px;
     padding-top: 10px;
-    width: 250px
+    width: 250px;
 }
 
 /*  Formatting for the Label */
@@ -124,13 +142,9 @@ input[type=radio]{
 }
 
 /*  Radio Button Properties 
-    First is Button Hover
-    Second is Label Hover
-    Third is before checked
-    Fourth is after checked  */
-li:hover .check {
-    border: 5px solid #FFFFFF;
-}
+    First is Label Hover
+    Second is before checked
+    Third is after checked  */
 li:hover label{
 	color: #646566;
 }
@@ -165,26 +179,21 @@ input[type=radio]:checked ~ .check::before{
   margin-left: 50px;
   border-radius: 10px;
 }
-.previousbutton span {
-  cursor: pointer;
+
+.verifyanswer {
   display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.previousbutton span:after {
-  content: '->';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-.previousbutton:hover span {
-  padding-right: 25px;
-}
-.previousbutton:hover span:after {
-  opacity: 1;
-  right: 0;
+  background-color: #646566;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 275px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 5%;
+  margin-left: -39%;
+  border-radius: 10px;
 }
 
 .nextbutton {
@@ -201,25 +210,4 @@ input[type=radio]:checked ~ .check::before{
   margin-top: 5%;
   margin-left: 33%;
   border-radius: 10px;
-}
-.nextbutton span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.nextbutton span:after {
-  content: '->';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-.nextbutton:hover span {
-  padding-right: 25px;
-}
-.nextbutton:hover span:after {
-  opacity: 1;
-  right: 0;
 }
