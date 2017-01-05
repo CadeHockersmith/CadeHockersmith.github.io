@@ -1,0 +1,42 @@
+body{
+    font
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 25% 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    width:50%;
+    height: 25%;
+    float:left;
+    
+}
+
+#code{
+    background-color: #A1BE95;
+}
+
+#writing{
+    background-color: #F8A055;
+   
+}
+
+#media{
+    background-color: #92AAC7;
+}
+
+#design{
+    background-color: #ED5752;
+}
+
+#codeText{
+    float:left;
+    margin-right:100px;
+    width: 100%;
+    height: auto;
+}
+

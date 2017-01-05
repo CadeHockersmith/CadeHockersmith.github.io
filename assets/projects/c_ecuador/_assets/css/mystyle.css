@@ -1,0 +1,603 @@
+body {
+   margin: 0;
+   background-color: #dfd7d7;
+}
+
+#header_home {
+    width: 100%;
+    height: 950px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.headers {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.headertext {
+    display: inline;
+    position: fixed;
+    margin-top: 10px;
+    left: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ ul{
+    float: left;
+    list-style-type: none;
+}
+li a {
+    display:inline;
+    padding: 0px;
+    margin-bottom: -30px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+} 
+
+#home {
+    display: inline;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    float: right;
+    margin: 8px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#home: visited {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+.navigation {
+    display: inline;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    padding: 8px;
+    font-size: 20px;
+    
+}
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: ;
+}
+
+#midtextdivhome {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -450px;
+}
+.midtextdiv {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    top: 35%;
+    margin-top: -150px;
+    left: 60%;
+    margin-left: -450px;
+}
+.midtext {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: 70px;
+}
+.midtextspanish {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: 10px;
+}
+.midtextlocations {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: 70px;
+}
+.midtextlocationsspanish {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: 10px;
+}
+.midtextclimate {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: -100px;
+}
+.midtextfoods {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: -70px;
+}
+.midtextentertainment {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: -100px;
+}
+.midtextaboutus {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: ;
+    margin-left: -40px;
+}
+
+#under_mid_text {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 225px;
+    width: 450px;   
+}
+.undermidtextothers {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 30px;
+    width: 450px;   
+    text-shadow: ;
+}
+
+#explore_1 {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+}
+#explore_1:visited {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#explore_1:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+
+#hotelblock {
+    position: relative;
+    width: 950px;
+    height: 370px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#hotels_1 {
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+#hotelimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/hotelimage1.jpg");
+    background-size: cover;
+    right: 0;
+}
+#hoteltext {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    left: 25%;
+    margin-top: 140px
+}
+#hotelsbutton:link {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    bottom: 100px;
+    left: 35%;
+}
+#hotelsbutton:visited {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+#hotelsbutton:hover {
+    background-color: #262524; 
+}
+#sightblock {
+    position: relative;
+    width: 950px;
+    height: 370px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#sights_1 {
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+#sightsimage {
+    position: absolute;
+    width: 600px;
+    height: 372px;
+    background-image: url("../images/sightsimage1.png");
+    background-size: cover;
+    right: 0;
+}
+#sightstext {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    left: 25%;
+    margin-top: 140px
+}
+#sightsbutton:link {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    bottom: 80px;
+    left: 35%;
+}
+#sightsbutton:visited {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+#sightsbutton:hover {
+    background-color: #262524; 
+}
+
+.smalltitle {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    font-size: 35px;
+    left: 20%;
+    margin-top: 80px
+}
+
+/* Ads */
+.vacationad{
+    width: 300px;
+    height: 250px;
+    margin-left: 45%;
+}
+.locationad{
+    width: 720px;
+    height: 90px;
+    margin-left: 30%;
+}
+.foodad{
+    width: 300px;
+    height: 250px;
+    margin-left: 45%;
+}
+.entertainmentad{
+    width: 300px;
+    height: 250px;
+    margin-left: 45%;
+}
+
+/* The Blocks */
+.topblock{
+    position: relative;
+    width: 950px;
+    height: 370px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.topblocktext{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    left: 15px;
+    margin-top: 50px;
+}
+.topblocktextdiv{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+.middleblock{
+    position: relative;
+    width: 950px;
+    height: 370px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.middleblocktext{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    left: 15px;
+    margin-top: 75px;
+}
+.middleblocktextdiv{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+.bottomblock{
+    position: relative;
+    width: 950px;
+    height: 370px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.bottomblocktext{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    left: 15px;
+    margin-top: 30px;
+}
+.bottomblocktextdiv{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+.aboutusfourthblock{
+    position: relative;
+    width: 950px;
+    height: 370px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.aboutusfourthblocktext{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #545454;
+    left: 15px;
+    margin-top: 75px;
+}
+.aboutusfourthblocktextdiv{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+
+/* Locations */
+#mapimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/map.jpg");
+    background-size: cover;
+    right: 0;
+}
+#geographyimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/geography.png");
+    background-size: cover;
+    right: 0;
+}
+#mountainsimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/mountains.jpg");
+    background-size: cover;
+    right: 0;
+}
+
+/* Climate */
+#climateimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/climate.png");
+    background-size: cover;
+    right: 0;
+}
+#coastimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/coast.jpg");
+    background-size: cover;
+    right: 0;
+}
+#ecuadorimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/ecuador.jpg");
+    background-size: cover;
+    right: 0;
+}
+
+/* Foods */
+#guineapigimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/guineapig.jpg");
+    background-size: cover;
+    right: 0;
+}
+#prawnsimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/prawns.jpg");
+    background-size: cover;
+    right: 0;
+}
+#riceimage{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/rice.jpg");
+    background-size: cover;
+    right: 0;
+}
+
+/* Entertainment */
+#beachimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+    right: 0;
+}
+#islandsimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/islands.jpg");
+    background-size: cover;
+    right: 0;
+}
+#shopsimage {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/shops.jpg");
+    background-size: cover;
+    right: 0;
+}
+
+/* About Us */
+#saiimage{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/sai.JPG");
+    background-size: cover;
+    right: 0;
+}
+#cadeimage{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/cade.JPG");
+    background-size: cover;
+    right: 0;
+}
+#navreetimage{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/navreet.JPG");
+    background-size: cover;
+    right: 0;
+}
+#quinnimage{
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-image: url("../images/quinn.JPG");
+    background-size: cover;
+    right: 0;
+}
+
+/* Footer */
+.bottomdiv{
+    background-color: black;
+    color: white;
+    width: 100%;
+    clear: both;
+    margin-bottom: -1000px;
+    position: absolute;
+}
+.bottomdiv: visited {
+   background-color: black;
+   color: white; 
+}
