@@ -6,37 +6,39 @@ button {
     border: none;
     color: white;
     padding: 25% 25%;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     width:50%;
     height: 25%;
     float:left;
+    max-width: 5px;
     
 }
 
 #code{
-    background-color: #A1BE95;
+    background-color: #A1BE95; /* Green */
 }
 
 #writing{
-    background-color: #F8A055;
+    background-color: #F8A055; /* Orange */
    
 }
 
 #media{
-    background-color: #92AAC7;
+    background-color: #92AAC7; /* Blue */
 }
 
 #design{
-    background-color: #ED5752;
+    background-color: #ED5752; /* Red */
 }
 
-#codeText{
+.codeText{
     float:left;
-    margin-right:100px;
-    width: 100%;
+    font-size: 1em;
+    width: 80%;
     height: auto;
+    margin-left: -15px;
+    margin-top: 10px;
 }
 
