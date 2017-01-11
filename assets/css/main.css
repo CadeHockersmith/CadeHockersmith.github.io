@@ -1,5 +1,6 @@
 body{
-    font
+    font-family: ubuntu;
+    color:white;
 }
 
 button {
@@ -15,7 +16,7 @@ button {
 }
 
 #code{
-    background-color: #A1BE95; /* Green */
+    
 }
 
 #writing{
@@ -32,14 +33,25 @@ button {
 }
 
 .codeText{
-    float:left;
     font-size: 4vw;
     width: 80%;
     margin-left: 10%;
-    margin-top: 10%;
 }
 
 img{
     float:left;
     margin-right:100px;
+}
+
+#codeDiv{
+    width: 50%;
+    height: 600px;
+    background-color: #A1BE95; /* Green */
+    
+}
+
+#codeImg{
+    width: 70%;
+    margin-top: -150px;
+    
 }
