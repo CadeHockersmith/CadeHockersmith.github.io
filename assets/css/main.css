@@ -1,16 +1,15 @@
 body{
-    font
+    font-family: "ubuntu"
 }
 
-button {
+div {
     border: none;
     color: white;
     padding: 25% 25%;
     text-decoration: none;
     cursor: pointer;
     width:50%;
-    height: 25%;
-    float:left;
+    height: 10%;
     
     
 }
@@ -33,11 +32,13 @@ button {
 }
 
 .codeText{
-    float:left;
-    font-size: 4vw;
-    width: 80%;
-    height: auto;
+    font-size: 6em;
     margin-left: -15px;
-    margin-top: 10px;
+    float:left;
 }
+
+img{ 
+    float:left; 
+    width: 100%;
+    height: auto;}
 
