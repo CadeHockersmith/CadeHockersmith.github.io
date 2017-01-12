@@ -1,7 +1,9 @@
 body{
     font-family: ubuntu;
-    color:white; /* Ehh, too much white */
+    color:white;
 }
+
+ a {color:white} a:visted {color:white;} /* Minor Link Styles */ 
 
 button {
     border: none;
@@ -16,7 +18,33 @@ button {
 }
 
 
+div.layout {
+    float:left;
+     width: 50%;
+    height: 600px;
+    
+}
 
+/* Colorful Sections */
+
+#codeDiv{background-color: #A1BE95; /* Green */}
+#codeBody{background-color: #A1BE95; /* Green */}
+
+#writingDiv {background-color: #F8A055; /* Orange */}
+
+#mediaDiv {background-color: #92AAC7; /* Blue */}
+
+#designDiv {background-color: #ED5752; /* Red */}
+
+#codeImg{
+    width: 70%;
+    margin-top: -10px;
+    float:left;
+    margin-left:15% 
+    
+}
+
+/* Text Styles */
 .codeText{
     font-size: 4vw;
     width: 80%;
@@ -24,46 +52,17 @@ button {
     text-align: center;
 }
 
-img{
+h1{
+    font-size:5vw;
+}
+
+/* Layout of Content Pages */
+
+#collegeKnowledge {
+    width: 50%;
     float:left;
-    margin-left:15% 
 }
-
-div {
+#ecuador {
+    width: 50%;
     float:left;
-    
-}
-
-#codeDiv{
-    width: 50%;
-    height: 600px;
-    background-color: #A1BE95; /* Green */
-    
-}
-
-#writingDiv{
-    width: 50%;
-    height: 600px;
-    background-color: #F8A055; /* Orange */
-    
-}
-
-#mediaDiv{
-    width: 50%;
-    height: 600px;
-    background-color: #92AAC7; /* Blue */
-    
-}
-
-#designDiv{
-    width: 50%;
-    height: 600px;
-    background-color: #ED5752; /* Red */
-    
-}
-
-#codeImg{
-    width: 70%;
-    margin-top: -10px;
-    
 }
