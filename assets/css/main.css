@@ -31,6 +31,7 @@ div.layout {
 #codeBody{background-color: #A1BE95; /* Green */}
 
 #writingDiv {background-color: #F8A055; /* Orange */}
+#writingBody {background-color: #F8A055; /* Orange */}
 
 #mediaDiv {background-color: #92AAC7; /* Blue */}
 
@@ -56,13 +57,33 @@ h1{
     font-size:5vw;
 }
 
+h2{
+    font-size:3vw;
+}
+
+h3{
+    font-size:1.5vw;
+    font-weight: bolder;
+}
+
+p{
+    font-size:1vw;
+}
+
 /* Layout of Content Pages */
 
-#collegeKnowledge {
+.contentDiv {
     width: 50%;
     float:left;
 }
-#ecuador {
-    width: 50%;
+
+.largeContentDiv {
+    width: 100%;
+    float:left;
+    margin: 0 auto;
+}
+
+.writingDiv {
+    width: 80%;
     float:left;
 }
