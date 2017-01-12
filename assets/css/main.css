@@ -1,6 +1,6 @@
 body{
     font-family: ubuntu;
-    color:white;
+    color:white; /* Ehh, too much white */
 }
 
 button {
@@ -15,28 +15,23 @@ button {
     
 }
 
-#writing{
-    background-color: #F8A055; /* Orange */
-   
-}
 
-#media{
-    background-color: #92AAC7; /* Blue */
-}
-
-#design{
-    background-color: #ED5752; /* Red */
-}
 
 .codeText{
     font-size: 4vw;
     width: 80%;
     margin-left: 10%;
+    text-align: center;
 }
 
 img{
     float:left;
-    margin-right:100px;
+    margin-left:15% 
+}
+
+div {
+    float:left;
+    
 }
 
 #codeDiv{
@@ -46,8 +41,29 @@ img{
     
 }
 
+#writingDiv{
+    width: 50%;
+    height: 600px;
+    background-color: #F8A055; /* Orange */
+    
+}
+
+#mediaDiv{
+    width: 50%;
+    height: 600px;
+    background-color: #92AAC7; /* Blue */
+    
+}
+
+#designDiv{
+    width: 50%;
+    height: 600px;
+    background-color: #ED5752; /* Red */
+    
+}
+
 #codeImg{
     width: 70%;
-    margin-top: -150px;
+    margin-top: -10px;
     
 }
