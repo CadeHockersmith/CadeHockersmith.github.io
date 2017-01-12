@@ -34,8 +34,10 @@ div.layout {
 #writingBody {background-color: #F8A055; /* Orange */}
 
 #mediaDiv {background-color: #92AAC7; /* Blue */}
+#mediaBody {background-color: #92AAC7; /* Blue */}
 
 #designDiv {background-color: #ED5752; /* Red */}
+#designBody {background-color: #ED5752; /* Red */}
 
 #codeImg{
     width: 70%;
