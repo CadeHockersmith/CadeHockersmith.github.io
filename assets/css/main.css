@@ -47,12 +47,17 @@ div.layout {
     
 }
 
+#flowchart{
+width:50%;
+}
+
 /* Text Styles */
 .codeText{
     font-size: 4vw;
     width: 80%;
     margin-left: 10%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 h1{
@@ -71,6 +76,7 @@ h3{
 p{
     font-size:1vw;
 }
+
 
 /* Layout of Content Pages */
 

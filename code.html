@@ -22,7 +22,7 @@
     
    <!-- Begin Coding Project Two -->
     <div class="contentDiv">
-    <h2>Ecaudor Travel Site</h2>
+    <h2>Get a Life Travel Site</h2>
         <a target="_blank" href="/assets/projects/c_ecuador/index.html"><img src="assets/img/ecuadorImg.png" height="600px" width="900px"> </a>
     <h3>Project Explanation</h3>
     <p>This project introduced me to adding more functionality to a site. Initially, the basic websites we created lacked the interactivity crucial for a successful site. However, this Ecuador themed travel site required us to meet the demands of a hypothetical client. One of the requirements of the project was to offer an English to Spanish translation. In addition, we needed to research accurate information that could easily be found. Usability testing was a core focus of the project as developers should consistently identify potential flaws in their current design. Overall, this large scale assignment required students to implement their current skills into a real world project.</p>
@@ -53,7 +53,52 @@
     <!-- Begin Coding Project Five -->
     <div class="largeContentDiv">
     <h2>Encoding An Experience</h2>
-       <img src="assets/projects/c_experience/map.png">
+       <img id="flowchat" src="assets/projects/c_experience/map.png" width="50%" height="120%">
+        <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0; width: 50%; float:left;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-9hbo">Component</th>
+    <th class="tg-9hbo">Type</th>
+    <th class="tg-9hbo">Number of Bits/Range</th>
+    <th class="tg-9hbo">Description</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Weather</td>
+    <td class="tg-yw4l">Binary</td>
+    <td class="tg-yw4l">2 bits(4 different values)</td>
+    <td class="tg-yw4l">The current weather of the tournament venue. An unknown value is marked as 00. A rainy value is marked as 01. A sunny value is marked as 10. A snowy value is values as 11.,This encoding system ensures that unnecessary bytes aren’t used to encode text.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Description of Venue</td>
+    <td class="tg-yw4l">ASCII</td>
+    <td class="tg-yw4l">4000 bits(0 - 500 chars)</td>
+    <td class="tg-yw4l">Describing the overall structure of the venue is an important part of recreating the experience. Since one ascii character takes up 8 bits (or 1 byte), 4,000 bits allows us to send a complete paragraph about the visual aspect of the experience. It is unreasonable to receive a complete essay describing the appearance of the venue, so I do not need to offer more than 500 characters.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Occupancy</td>
+    <td class="tg-yw4l">ASCII</td>
+    <td class="tg-yw4l">5 bits( 32 values)</td>
+    <td class="tg-yw4l">Number is the total amount of people within the venue. 5 bits offers 32 total values of people participating inside the tournament. The venue I go to typically reachers 16 people, but the extra space ensures that the experience can be recreated without the risk of an overflow.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Coordinates</td>
+    <td class="tg-yw4l">Number</td>
+    <td class="tg-yw4l">2 separate 6 bits (128 values but only 92 are needed for each state.)</td>
+    <td class="tg-yw4l">Longitude and latitude both reach a cap of 90. However, that value can either be negative or positive, so it is important to have two extra values that describe the sign of the coordinates. These specific values take up much less space than the name of the street that the venue is on.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Hours Open</td>
+    <td class="tg-yw4l">Number</td>
+    <td class="tg-yw4l">2 Separate 5 bits(32 values, but only 24 are needed for each state)</td>
+    <td class="tg-yw4l">First value is the time the venue opens while the second value is the time the venue closes. These values are both in military time to save space while encoding the data. In addition, this format assumes that the tournament opens at a whole number which is a safe assumption to make. Typically, the first hour of a tournament is dedicated to friendly matches, so anyone receiving this message will not miss out on the actual event.</td>
+  </tr>
+</table>
     <h3>Project Explanation</h3>
     <p>This project required students to recreate a significant event through the use of ASCII and binary code. The event was broken down to its simplest elements to easily transmit the information to another student. I was expected to justify the encoding systems used to  further my understanding of this code.</p>
     <h3>Project Reflection</h3>
