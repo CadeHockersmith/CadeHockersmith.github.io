@@ -68,6 +68,12 @@ h2{
     font-size:3vw;
 }
 
+#narrativeTitle{
+    float:left;
+    text-align: center;
+    margin-left: -250px;
+}
+
 h3{
     font-size:1.5vw;
     font-weight: bolder;
