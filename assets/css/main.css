@@ -77,6 +77,16 @@ p{
     font-size:1vw;
 }
 
+#flowchartExplanation{
+    width: 50%;
+    float: left;
+}
+
+#flowchartReflection{
+    width: 50%;
+    float: left;
+}
+
 
 /* Layout of Content Pages */
 
@@ -91,7 +101,27 @@ p{
     margin: 0 auto;
 }
 
-.writingDiv {
-    width: 80%;
-    float:left;
+.middleDiv {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
+
+#explanationText{
+    width: 50%;
+    float: right;
+}
+
+#reflectionText{
+    width: 50%;
+    float: right;
+    margin-top: -300px;
+}
+
+
+/* Table CSS */
+.tg  {border-collapse:collapse;border-spacing:0; width: 50%; float:left;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
