@@ -3,19 +3,47 @@ body{
     color:white;
 }
 
- a {color:white} a:visted {color:white;} /* Minor Link Styles */ 
+/* Splash Page Code */
 
-button {
-    border: none;
-    color: white;
-    padding: 10% 10%;
-    text-decoration: none;
-    cursor: pointer;
-    width:50%;
-    float:left;
-    
+#splash{
+    z-index: -1;
+    margin-top:-550px;
+    text-align: center;
+}
+
+#welcome1{
+    width: 25%;
+    height: 900px;
+    float: left;
+    background-color:#ED5752; 
+}
+
+#welcome2{
+    width: 25%;
+    height: 900px;
+    float: left;
+    background-color: #F8A055;
     
 }
+
+
+#welcome3{
+    width: 25%;
+    height: 900px;
+    float: left;
+    background-color:#A1BE95;
+}
+
+#welcome4{
+    width: 25%;
+    height: 900px;
+    float: left;
+   background-color:#92AAC7;
+    
+}
+
+
+a {color:white} a:visted {color:white;} /* Minor Link Styles */ 
 
 
 div.layout {
@@ -25,6 +53,8 @@ div.layout {
     
 }
 
+
+
 /* Colorful Sections */
 
 #codeDiv{background-color: #A1BE95; /* Green */}
@@ -33,11 +63,32 @@ div.layout {
 #writingDiv {background-color: #F8A055; /* Orange */}
 #writingBody {background-color: #F8A055; /* Orange */}
 
+#writingDiv2{
+    width: 70%;
+    margin: 0 auto;
+    height: 70%;
+    margin-top: 15px;
+}
+
 #mediaDiv {background-color: #92AAC7; /* Blue */}
 #mediaBody {background-color: #92AAC7; /* Blue */}
 
-#designDiv {background-color: #ED5752; /* Red */}
+#mediaDiv2{
+    width: 70%;
+    margin: 0 auto;
+    height: 40%;
+    margin-top: 25px;
+}
+
+#designDiv {background-color: #ED5752; /* Red */ width: 50%;}
 #designBody {background-color: #ED5752; /* Red */}
+
+#designDiv2{
+    width: 70%;
+    margin: 0 auto;
+    height: 70%;
+}
+
 
 #codeImg{
     width: 70%;
@@ -47,11 +98,32 @@ div.layout {
     
 }
 
+
+
+#designImg{
+    width: 75%;
+    float:left;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+
 #flowchart{
 width:50%;
 }
 
 /* Text Styles */
+
+#welcomeText{
+    text-align: center;
+}
+
+#welcomeSubtitle{
+    text-align: center;
+}
+
+
 .codeText{
     font-size: 4vw;
     width: 80%;
@@ -59,6 +131,15 @@ width:50%;
     text-align: center;
     margin-bottom: 10px;
 }
+
+.mediaText{
+    font-size: 4vw;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 230px;
+}
+
 
 h1{
     font-size:5vw;
@@ -131,3 +212,55 @@ p{
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg .tg-9hbo{font-weight:bold;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
+
+
+/* About Me CSS */
+
+#aboutme{
+    z-index: -12;
+    margin-top:-800px;
+    text-align: center;
+}
+
+#goodbye1{
+    width: 25%;
+    height: 900px;
+    float: left;
+    background-color:#ED5752; 
+}
+
+#goodbye2{
+    width: 25%;
+    height: 900px;
+    float: left;
+    background-color: #F8A055;
+    
+}
+
+
+#goodbye3{
+    width: 25%;
+    height: 900px;
+    float: left;
+    background-color:#A1BE95;
+}
+
+#goodbye4{
+    width: 25%;
+    height: 900px;
+    float: left;
+   background-color:#92AAC7;   
+}
+
+#goodbyeText{
+    text-align: center;
+}
+
+#goodbyeSubtitle{
+    text-align: center;
+    font-size:2vw;
+}
+
+#resume{
+    text-align: center;
+}
