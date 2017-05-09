@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head><title>Victor Test</title></head>
-<body id="body">
+ <body id="body">
 
 <form action="">
 <strong><center>
 
-<input type="checkbox" name="vehicle" value="Bike" >Is Victor bored?<br>
-<input type="checkbox" name="vehicle" value="Bike">Is Victor Really bored?<br>
-<input type="checkbox" name="vehicle" value="Bike">Is Victor Really Really bored?<br>
-<input type="checkbox" name="vehicle" value="Bike">Is Victor Really Really Really bored?<br>
-<input type="checkbox" name="vehicle" value="Bike" id="max" onclick="myFunction()">Is Victor Really Really Really Really bored?<br>
+<input type="checkbox">Is Victor bored?<br>
+<input type="checkbox">Is Victor Really bored?<br>
+<input type="checkbox">Is Victor Really Really bored?<br>
+<input type="checkbox">Is Victor Really Really Really bored?<br>
+<input type="checkbox" id="max" onclick="maximumBoredom()">Is Victor Really Really Really Really bored?<br>
 </form>
 
     
 <script>
 var x = 0;
     
-    function myFunction() {
+    function maximumBoredom() {
     
     if (x===0) {
     document.getElementById("body").style.backgroundColor = "red";
