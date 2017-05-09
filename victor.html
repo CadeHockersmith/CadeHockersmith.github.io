@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><title>Victor Test</title></head>
+<body id="body">
+
+<form action="">
+<strong><center>
+
+<input type="checkbox" name="vehicle" value="Bike" >Is Victor bored?<br>
+<input type="checkbox" name="vehicle" value="Bike">Is Victor Really bored?<br>
+<input type="checkbox" name="vehicle" value="Bike">Is Victor Really Really bored?<br>
+<input type="checkbox" name="vehicle" value="Bike">Is Victor Really Really Really bored?<br>
+<input type="checkbox" name="vehicle" value="Bike" id="max" onclick="myFunction()">Is Victor Really Really Really Really bored?<br>
+</form>
+
+    
+<script>
+var x = 0;
+    
+    function myFunction() {
+    
+    if (x===0) {
+    document.getElementById("body").style.backgroundColor = "red";
+    document.getElementById("body").style.color = "white";
+        x = x +1;
+}
+   else{
+   document.getElementById("body").style.backgroundColor = "white";
+    document.getElementById("body").style.color = "red";
+   x = 0;
+   }
+}
+</script>
+
+
+
+</strong></center>
+</form>
+
+</body>
+</html>
