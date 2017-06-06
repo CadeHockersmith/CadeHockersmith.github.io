@@ -1,0 +1,110 @@
+/*Cade's Portfolio Sitewide CSS*/
+
+@font-face {
+    font-family: "Bebas Neue Book"; /*Licence can be found at https://www.fontsquirrel.com/license/bebas-neue*/
+    src: url("../fonts/regular.ttf");
+}
+
+
+body { 
+    /*Establishes styles used on all elements. */ 
+    font-family: "Bebas Neue Book";
+    background: url("../img/background.png") no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+/*Begin Navigation */
+
+#mainNav {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+}
+
+ul {
+    list-style-type: none;
+    background: rgba(255, 255, 255, 0.6);
+    height: 100px;
+}
+
+li {
+    float: left;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #507dbc;
+}
+
+footer a {
+    color: #507dbc;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 70px;
+    color:#507dbc;
+}
+
+li a:hover {
+    color: black;
+}
+
+
+
+a:visted {
+    color: white;
+}
+
+
+/*End Navigation */
+
+
+/* Begin Main Banner */
+
+#sloganBox {
+    margin-top: 400px;
+    padding-bottom: 0;
+    font-size: 30px;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.6);
+    width:50%;
+    margin: 0 auto;
+}
+
+#subText{
+    margin-top: 305px;
+}
+
+/* End Main Banner */
+
+#footer{
+     margin-top: 10%;
+    padding-bottom: 0;
+    font-size: 50px;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+    background: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
+#leading{
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+#subLeading{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}

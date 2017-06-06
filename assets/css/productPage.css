@@ -1,0 +1,95 @@
+/*Product Page Specific CSS*/
+
+body {
+    /*Establishes styles used sitewide */
+    background: url("../img/background.png") no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+#mainNav {
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+    box-shadow: 0px 6px 5px grey;
+    background-color: #e6e7ef;
+}
+
+#productBox {
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 10%;
+    padding-bottom: 0;
+    color: #507dbc;
+    box-shadow: 0px 6px 5px grey;
+    height: 50%;
+    background: rgba(255, 255, 255, 1);
+    background-color: #e6e7ef;
+}
+
+img {
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#productName {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.productInfo {
+    font-size: 30px;
+    clear:both;
+    margin: 0 auto;
+}
+
+#productList {
+    list-style-type: disc;
+    background: none;
+    height: 100px;
+    float:left;
+    color: #507dbc; /*Light Blue*/
+    clear:both;
+    margin-left: 25%; /*Fix Soon*/
+    margin-top:-13%;
+    
+}
+
+div h1 {
+    margin-top: 40px;
+}
+
+li {
+    float: both;
+}
+
+button {
+    clear: both;
+    background-color: white;
+    border: none;
+    color: #507dbc;
+    padding: 5px 32px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 6px 5px grey;
+    cursor: pointer;
+    float:left;
+    font-family: "Bebas Neue Book";
+     margin-left: 25%; /*Fix Soon*/
+    margin-top:-3%;
+}
+
+#footer{
+    position: static;
+    bottom:auto;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.projectDescription{
+    font-size: 20px;
+    font-family:"Arial";
+}
+
+
