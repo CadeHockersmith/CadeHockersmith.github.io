@@ -1,0 +1,27 @@
+  
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+<style> button position: static;</style>
+<script>
+    function newImage(){
+            x = Math.round(Math.random() * 15 + 1);
+            document.getElementById("quoteImg").src = "img/quotes/"+ x + ".png"
+    
+            x = Math.round(Math.random() * 4 + 1);
+            document.getElementById("elly").src = "img/ellys/"+ x + ".png"
+            } </script>
+</head>
+
+<body>
+    
+    <center><img id="elly" src="img/ellys/4.png" onclick="newImage()"></center>
+    <img id="quoteImg" src="" width="100%" height="100%">
+
+</body>
+
+</html>
